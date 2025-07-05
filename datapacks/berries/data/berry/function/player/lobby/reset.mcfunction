@@ -1,4 +1,5 @@
 clear @s
+effect clear @s
 
 tag @s remove berry.in_game
 tag @s remove berry.spectator

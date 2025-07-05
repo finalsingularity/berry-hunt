@@ -1,5 +1,6 @@
 gamemode adventure @s
 clear @s
+effect clear @s
 
 effect give @s weakness infinite 0 true
 effect give @s night_vision infinite 0 true

@@ -8,4 +8,6 @@ spreadplayers 0 0 24 48 under 0 false @a
 scoreboard players set $in_game berry 1
 scoreboard players set $ceasefire berry 300
 
+gamerule randomTickSpeed 3
+
 function berry:game/ceasefire

@@ -42,6 +42,7 @@ scoreboard players set $60 berry.constants 60
 scoreboard players set $3600 berry.constants 3600
 
 scoreboard objectives add unstuck trigger
+scoreboard objectives add stats trigger
 scoreboard objectives add berry.unstuck_cooldown dummy
 
 team add berry.ceasefire

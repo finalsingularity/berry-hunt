@@ -1,12 +1,33 @@
-scoreboard players operation $kdr berry.dialog.stats = @s berry.stat.kills
-scoreboard players operation $deaths berry.dialog.stats = @s berry.stat.deaths
+scoreboard players operation $kdr_l berry.dialog.stats = @s berry.stat.kills
+scoreboard players operation $kdr_r berry.dialog.stats = @s berry.stat.kills
 
-scoreboard players operation $kdr berry.dialog.stats *= $100 berry.constants
+scoreboard players operation $deaths berry.dialog.stats = @s berry.stat.deaths
 scoreboard players operation $deaths berry.dialog.stats *= $100 berry.constants
 
-scoreboard players operation $kdr berry.dialog.stats /= $deaths berry.dialog.stats
+scoreboard players operation $kdr_l berry.dialog.stats *= $100 berry.constants
+scoreboard players operation $kdr_r berry.dialog.stats *= $100 berry.constants
 
-execute store result storage berry:dialog stats.kdr float 0.01 run scoreboard players get $kdr berry.dialog.stats
+scoreboard players operation $kdr_l berry.dialog.stats /= $deaths berry.dialog.stats
+scoreboard players operation $kdr_r berry.dialog.stats %= $deaths berry.dialog.stats
+
+scoreboard players set $size berry.dialog.helpers.leftpad 2
+
+execute store result storage berry:dialog/helpers/to_s input int 1 run scoreboard players get $kdr_l berry.dialog.stats
+function berry:dialog/helpers/to_s.macro with storage berry:dialog/helpers/to_s
+data modify storage berry:dialog/helpers/concat left set from storage berry:dialog/helpers/to_s output
+data modify storage berry:dialog/helpers/concat right set value "."
+function berry:dialog/helpers/concat.macro with storage berry:dialog/helpers/concat
+
+execute store result storage berry:dialog/helpers/to_s input int 1 run scoreboard players get $kdr_r berry.dialog.stats
+function berry:dialog/helpers/to_s.macro with storage berry:dialog/helpers/to_s
+data modify storage berry:dialog/helpers/leftpad input set string storage berry:dialog/helpers/to_s output 0 2
+function berry:dialog/helpers/leftpad/init
+
+data modify storage berry:dialog/helpers/concat left set from storage berry:dialog/helpers/concat output
+data modify storage berry:dialog/helpers/concat right set from storage berry:dialog/helpers/leftpad output
+function berry:dialog/helpers/concat.macro with storage berry:dialog/helpers/concat
+
+data modify storage berry:dialog stats.kdr set from storage berry:dialog/helpers/concat output
 
 scoreboard players operation $metres berry.dialog.stats = @s berry.stat.distance_walked
 scoreboard players operation $metres berry.dialog.stats /= $100 berry.constants
@@ -28,6 +49,7 @@ scoreboard players operation $hours berry.dialog.stats = @s berry.stat.time_play
 
 scoreboard players operation $seconds berry.dialog.stats %= $60 berry.constants
 scoreboard players operation $minutes berry.dialog.stats /= $60 berry.constants
+scoreboard players operation $minutes berry.dialog.stats %= $60 berry.constants
 scoreboard players operation $hours berry.dialog.stats /= $3600 berry.constants
 
 scoreboard players set $size berry.dialog.helpers.leftpad 2

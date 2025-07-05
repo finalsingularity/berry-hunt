@@ -9,3 +9,5 @@ execute if score @s berry.horn matches 1.. run function berry:player/horn
 execute if predicate berry:compass/weapon run function berry:compass/weapon_compass
 execute if predicate berry:compass/armour run function berry:compass/armour_compass
 execute if predicate berry:compass/treasure run function berry:compass/treasure_compass
+
+clear @s glass_bottle
