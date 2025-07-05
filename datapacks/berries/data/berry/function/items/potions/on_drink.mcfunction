@@ -1,0 +1,1 @@
+scoreboard players add @s berry.drunk 1

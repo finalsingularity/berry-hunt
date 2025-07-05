@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "berry:compass/drop/weapon/bow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "berry:compass/drop/weapon/bow_harming"
+        }
+      ]
+    }
+  ]
+}

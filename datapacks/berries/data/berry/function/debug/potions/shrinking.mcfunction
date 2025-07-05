@@ -1,0 +1,1 @@
+give @s potion[potion_contents={potion:"minecraft:water",custom_color:12976148},custom_name={"italic":false,"text":"Strawberry Shrinker"},custom_data={cid:"berry:shrinking_potion",berry:{temp:true}},use_remainder={id:"minecraft:glass_bottle",count:1,components:{"minecraft:custom_data":{cid: "berry:bottle",berry:{temp: true}}}}] 1

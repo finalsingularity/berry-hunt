@@ -1,0 +1,1 @@
+give @s blaze_spawn_egg[entity_data={id:"minecraft:marker",Tags:["berry.marker","berry.marker.waypoint"]},custom_name={"italic":false,"text":"Waypoint Marker"}] 1

@@ -1,0 +1,1 @@
+give @s potion[potion_contents={potion:"minecraft:water",custom_color:5598897},custom_name={"italic":false,"text":"Dazzling Dewberry"},custom_data={cid:"berry:dazzling_potion",berry:{temp:true}},use_remainder={id:"minecraft:glass_bottle",count:1,components:{"minecraft:custom_data":{cid:"berry:bottle",berry:{temp:true}}}}] 1

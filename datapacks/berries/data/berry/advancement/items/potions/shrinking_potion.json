@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "cid": "berry:shrinking_potion"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "berry:items/potions/shrinking_potion/consume"
+  }
+}

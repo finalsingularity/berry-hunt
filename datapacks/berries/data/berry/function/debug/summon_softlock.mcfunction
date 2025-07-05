@@ -1,0 +1,1 @@
+execute at @s run summon marker ~ ~ ~ {Tags:["berry.marker","berry.marker.softlock"]}
