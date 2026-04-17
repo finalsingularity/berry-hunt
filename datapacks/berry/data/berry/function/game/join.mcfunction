@@ -1,9 +1,8 @@
+function berry:player/inventory/save/init
+
 gamemode adventure @s
 clear @s
 effect clear @s
-
-effect give @s weakness infinite 0 true
-effect give @s night_vision infinite 0 true
 
 effect give @s regeneration 1 255 true
 effect give @s saturation 1 255 true

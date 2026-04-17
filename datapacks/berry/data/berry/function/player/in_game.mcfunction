@@ -10,4 +10,7 @@ execute if predicate berry:compass/weapon run function berry:compass/weapon_comp
 execute if predicate berry:compass/armour run function berry:compass/armour_compass
 execute if predicate berry:compass/treasure run function berry:compass/treasure_compass
 
+effect give @s weakness infinite 0 true
+effect give @s night_vision infinite 0 true
+
 clear @s glass_bottle

@@ -1,0 +1,1 @@
+$data modify storage berry:player/inventory storage."$(id)" set value $(value)
