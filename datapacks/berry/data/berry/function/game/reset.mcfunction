@@ -2,7 +2,7 @@ schedule clear berry:game/ceasefire
 
 worldborder set 500
 
-scoreboard players set $in_game berry 0
+scoreboard players set $status berry 0
 scoreboard players set $wb_uses berry 0
 scoreboard players set $wb_in_cooldown berry 0
 scoreboard players set $ceasefire berry 0
