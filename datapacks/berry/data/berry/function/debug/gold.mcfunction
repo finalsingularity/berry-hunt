@@ -1,0 +1,1 @@
+give @s gold_nugget[minecraft:custom_name={italic:false,text:"Nuggets o' Fun"}] 64
