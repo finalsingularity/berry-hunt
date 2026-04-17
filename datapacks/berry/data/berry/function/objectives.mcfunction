@@ -47,3 +47,5 @@ scoreboard objectives add berry.unstuck_cooldown dummy
 
 team add berry.ceasefire
 team modify berry.ceasefire friendlyFire false
+
+bossbar add berry:game/info ""
