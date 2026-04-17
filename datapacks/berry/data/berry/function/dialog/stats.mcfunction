@@ -2,13 +2,15 @@ scoreboard players operation $kdr_l berry.dialog.stats = @s berry.stat.kills
 scoreboard players operation $kdr_r berry.dialog.stats = @s berry.stat.kills
 
 scoreboard players operation $deaths berry.dialog.stats = @s berry.stat.deaths
-scoreboard players operation $deaths berry.dialog.stats *= $100 berry.constants
 
 scoreboard players operation $kdr_l berry.dialog.stats *= $100 berry.constants
 scoreboard players operation $kdr_r berry.dialog.stats *= $100 berry.constants
 
 scoreboard players operation $kdr_l berry.dialog.stats /= $deaths berry.dialog.stats
-scoreboard players operation $kdr_r berry.dialog.stats %= $deaths berry.dialog.stats
+scoreboard players operation $kdr_r berry.dialog.stats /= $deaths berry.dialog.stats
+
+scoreboard players operation $kdr_l berry.dialog.stats /= $100 berry.constants
+scoreboard players operation $kdr_r berry.dialog.stats %= $100 berry.constants
 
 scoreboard players set $size berry.dialog.helpers.leftpad 2
 
