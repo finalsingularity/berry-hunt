@@ -1,1 +1,0 @@
-give @s magma_cube_spawn_egg[entity_data={id:"minecraft:marker",Tags:["berry.marker","berry.marker.delete"]},custom_name={"italic":false,"text":"Marker B Gone"}] 1

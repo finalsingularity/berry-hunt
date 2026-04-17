@@ -1,0 +1,1 @@
+$data modify storage berry:dialog/helpers/to_s output set value "$(input)"

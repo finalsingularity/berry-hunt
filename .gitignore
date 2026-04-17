@@ -1,6 +1,9 @@
-advancements/
-DIM-1/
-DIM1/
-playerdata/
-stats/
-session.lock
+/advancements/
+/DIM-1/
+/DIM1/
+/playerdata/
+/stats/
+/session.lock
+/data/
+!/data/idcounts.dat
+!/data/map_*.dat

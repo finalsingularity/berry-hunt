@@ -1,1 +1,0 @@
-$give @s minecraft:gold_nugget[minecraft:custom_name={text:"Nuggets o' Fun",italic:false}] $(berries)

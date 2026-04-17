@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags: [\"berry.villager.barkeep\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "berry:player/stats/potion_bought"
+  }
+}

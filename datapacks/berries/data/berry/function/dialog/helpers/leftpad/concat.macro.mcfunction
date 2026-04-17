@@ -1,1 +1,0 @@
-$data modify storage berry:dialog/helpers/leftpad output set value "0$(output)"

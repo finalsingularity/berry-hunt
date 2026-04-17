@@ -1,0 +1,1 @@
+scoreboard players set $wb_in_cooldown berry 0

@@ -1,0 +1,1 @@
+execute at @s as @n[type=marker,tag=berry.marker.compass,distance=..3] run function berry:debug/deletepos/delete

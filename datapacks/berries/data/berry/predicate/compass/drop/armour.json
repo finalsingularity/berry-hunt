@@ -1,8 +1,0 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "nbt": "{Item: {components: {\"minecraft:custom_data\": {cid: \"berry:filled_armour_compass\"}}}}",
-    "slots": {}
-  }
-}

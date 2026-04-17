@@ -1,6 +1,0 @@
-execute if score $wb_uses berry matches ..0 run return run tp @s @n[type=marker,tag=berry.marker.softlock]
-execute if score $wb_uses berry matches 1 run return run tp @s @n[type=marker,x=-218,y=-64,z=-218,dx=435,dy=320,dz=435,tag=berry.marker.softlock]
-execute if score $wb_uses berry matches 2 run return run tp @s @n[type=marker,x=-186,y=-64,z=-186,dx=371,dy=320,dz=371,tag=berry.marker.softlock]
-execute if score $wb_uses berry matches 3 run return run tp @s @n[type=marker,x=-154,y=-64,z=-154,dx=307,dy=320,dz=307,tag=berry.marker.softlock]
-execute if score $wb_uses berry matches 4 run return run tp @s @n[type=marker,x=-122,y=-64,z=-122,dx=243,dy=320,dz=243,tag=berry.marker.softlock]
-execute if score $wb_uses berry matches 5.. run return run tp @s @n[type=marker,x=-90,y=-64,z=-90,dx=179,dy=320,dz=179,tag=berry.marker.softlock]

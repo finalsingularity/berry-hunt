@@ -1,0 +1,1 @@
+give @s skeleton_spawn_egg[entity_data={id:"minecraft:marker",Tags:["berry.marker","berry.marker.softlock"]},custom_name={"italic":false,"text":"Softlock Marker"}] 1

@@ -1,0 +1,1 @@
+give @s potion[potion_contents={potion:"minecraft:water",custom_color:10238608},custom_name={"italic":false,"text":"Wandering Wildberry"},custom_data={cid:"berry:wander_potion",berry:{temp:true}},use_remainder={id:"minecraft:glass_bottle",count:1,components:{"minecraft:custom_data":{cid:"berry:bottle",berry:{temp:true}}}}] 1

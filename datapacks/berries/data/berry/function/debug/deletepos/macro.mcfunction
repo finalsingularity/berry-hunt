@@ -1,1 +1,0 @@
-$data modify storage berry:temp deletepos.coords set value "$(x),$(y),$(z)"

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags: [\"berry.villager.quartermaster\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "berry:player/stats/item_bought"
+  }
+}

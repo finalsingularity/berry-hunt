@@ -1,1 +1,0 @@
-$give @s sweet_berries[custom_data={cid: "berry:sweet_berries"},food={nutrition: 2, saturation: 0.4, can_always_eat: true}] $(berry_check)

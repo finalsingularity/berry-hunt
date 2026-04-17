@@ -1,0 +1,9 @@
+scoreboard players reset @s berry.stat.games_played
+scoreboard players reset @s berry.stat.games_won
+scoreboard players reset @s berry.stat.deaths
+scoreboard players reset @s berry.stat.kills
+scoreboard players reset @s berry.stat.berries_picked
+scoreboard players reset @s berry.stat.drinks_bought
+scoreboard players reset @s berry.stat.items_bought
+scoreboard players reset @s berry.stat.time_played
+scoreboard players reset @s berry.stat.distance_walked
