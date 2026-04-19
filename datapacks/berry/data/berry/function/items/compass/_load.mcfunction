@@ -1,0 +1,1 @@
+function berry:items/compass/registry

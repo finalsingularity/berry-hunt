@@ -1,0 +1,1 @@
+$data modify storage berry:items/compass pos set from storage berry:items/compass valid[$(idx)]

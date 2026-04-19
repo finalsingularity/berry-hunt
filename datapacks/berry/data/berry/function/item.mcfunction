@@ -3,6 +3,6 @@ execute if data storage berry:temp item{cid:"berry:beacon"} run function berry:i
 execute if data storage berry:temp item{cid:"berry:shrinking_violet"} run function berry:items/shrinking_violet
 data remove storage berry:temp item
 
-function berry:compass/drop/armour
-function berry:compass/drop/treasure
-function berry:compass/drop/weapon
+function berry:items/compass/drop/armour
+function berry:items/compass/drop/treasure
+function berry:items/compass/drop/weapon

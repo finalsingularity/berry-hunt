@@ -17,11 +17,11 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "berry:compass/drop/weapon/bow"
+          "value": "berry:items/compass/drop/weapon/bow"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "berry:compass/drop/weapon/bow_harming"
+          "value": "berry:items/compass/drop/weapon/bow_harming"
         }
       ]
     }

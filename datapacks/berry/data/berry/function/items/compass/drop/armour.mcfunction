@@ -1,4 +1,4 @@
-execute as @s[predicate=!berry:compass/drop/armour] run return -1
+execute as @s[predicate=!berry:items/compass/drop/armour] run return -1
 
 data modify storage berry:drop drop.pos set from entity @s Pos
 data modify storage berry:drop drop.lodestone set from entity @s Item.components.minecraft:lodestone_tracker.target.pos
@@ -25,4 +25,4 @@ kill @s
 
 playsound minecraft:entity.firework_rocket.large_blast master @a ~ ~ ~ 1
 particle soul_fire_flame ~ ~ ~ 0.01 0.01 0.01 1.2 16 normal
-loot spawn ~ ~ ~ loot berry:compass/drop/armour
+loot spawn ~ ~ ~ loot berry:items/compass/drop/armour
