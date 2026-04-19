@@ -3,6 +3,8 @@ scoreboard objectives add berry.game_id dummy
 scoreboard objectives add berry.drop dummy
 scoreboard objectives add berry.sneak_time dummy
 
+scoreboard objectives add berry.items.compass dummy
+
 scoreboard objectives add berry.berry_eaten minecraft.used:sweet_berries
 scoreboard objectives add berry.golden_carrot_eaten minecraft.used:golden_carrot
 
@@ -45,9 +47,11 @@ scoreboard objectives add unstuck trigger
 scoreboard objectives add stats trigger
 scoreboard objectives add berry.unstuck_cooldown dummy
 
+# Teams
 team add berry.ceasefire
 team modify berry.ceasefire friendlyFire false
 
+# Bossbar
 bossbar add berry:game/info ""
 bossbar set berry:game/info color red
 bossbar set berry:game/info value 100
