@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) run particle dust_color_transition{from_color:[0.078,0.969,1.000],to_color:[0.580,0.902,1.000],scale:1} ~ ~0.25 ~ 0.2 0.2 0.2 0 3 normal @s[distance=..16]

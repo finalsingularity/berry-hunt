@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "berry:items/compass/filled/armour"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "berry:items/compass/filled/weapon"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "berry:items/compass/filled/treasure"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "berry:items/compass/filled/lucky_dip"
+    }
+  ]
+}
