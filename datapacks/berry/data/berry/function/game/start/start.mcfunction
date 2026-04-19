@@ -13,3 +13,6 @@ execute as @a at @s run playsound minecraft:block.note_block.harp master @s ~ ~ 
 
 function berry:game/info/init
 function berry:game/ceasefire
+
+# Start the compass break check loop
+function berry:items/compass/break/check

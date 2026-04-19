@@ -1,1 +1,1 @@
-$item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:lodestone_tracker":{target:{pos:[I; $(pos)],dimension:"minecraft:overworld"},tracked: false},"minecraft:custom_data":{cid:"$(compass_id)"}},conditions:[]}
+$item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:lodestone_tracker":{target:{pos:[I; $(pos)],dimension:"minecraft:overworld"},tracked: false},"minecraft:custom_data":{cid: "$(compass_id)", ring: $(ring)}},conditions:[]}
