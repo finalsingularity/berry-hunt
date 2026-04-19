@@ -6,3 +6,4 @@ data remove storage berry:temp item
 function berry:items/compass/drop/armour
 function berry:items/compass/drop/treasure
 function berry:items/compass/drop/weapon
+function berry:items/compass/drop/lucky_dip

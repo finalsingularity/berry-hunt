@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beacon",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  {
+                    "color": "gold",
+                    "text": "[Drop to Use]",
+                    "italic": false
+                  },
+                  {
+                    "color": "gray",
+                    "text": "Gives all players glowing for 30 seconds.",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_name": {
+                  "text": "Player Beacon",
+                  "italic": false
+                },
+                "minecraft:custom_data": {
+                  "cid": "berry:beacon"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

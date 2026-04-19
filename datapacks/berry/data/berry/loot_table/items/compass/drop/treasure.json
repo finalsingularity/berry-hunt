@@ -59,6 +59,16 @@
               "count": 8
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "minecraft:invisibility"
+            }
+          ]
         }
       ]
     }

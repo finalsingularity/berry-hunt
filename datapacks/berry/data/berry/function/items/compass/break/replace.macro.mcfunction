@@ -1,1 +1,1 @@
-$item replace entity @s $(slot) with music_disc_11[enchantment_glint_override=true,custom_data={cid:"berry:broken_compass"},item_name={"color":"red","italic":false,"text":"Broken Compass"},lore=[{"color":"gold","italic":false,"text":"[Sell back to Quartermaster]"},{"color":"gray","italic":false,"text":"A compass that pointed to a drop zone"},{"color":"gray","italic":false,"text":"now outside of the map."}],!jukebox_playable]
+$loot replace entity @s $(slot) loot berry:items/broken_compass

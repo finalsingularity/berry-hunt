@@ -1,0 +1,35 @@
+{
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "berry:items/compass/drop/lucky_dip/common",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "berry:items/compass/drop/lucky_dip/rare",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "berry:items/compass/drop/armour",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "berry:items/compass/drop/weapon",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "berry:items/compass/drop/treasure",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
