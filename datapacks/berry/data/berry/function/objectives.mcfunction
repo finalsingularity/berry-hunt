@@ -47,3 +47,7 @@ scoreboard objectives add berry.unstuck_cooldown dummy
 
 team add berry.ceasefire
 team modify berry.ceasefire friendlyFire false
+
+bossbar add berry:game/info ""
+bossbar set berry:game/info color red
+bossbar set berry:game/info value 100

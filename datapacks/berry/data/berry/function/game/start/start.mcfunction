@@ -11,4 +11,5 @@ gamerule random_tick_speed 3
 title @a title {text: "Hunt!", color: "green"}
 execute as @a at @s run playsound minecraft:block.note_block.harp master @s ~ ~ ~ 1 1
 
+function berry:game/info/init
 function berry:game/ceasefire

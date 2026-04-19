@@ -10,4 +10,6 @@ scoreboard players set $ceasefire berry 0
 kill @e[type=item]
 kill @e[type=oak_boat]
 
+function berry:game/info/reset
+
 execute as @a run function berry:game/leave

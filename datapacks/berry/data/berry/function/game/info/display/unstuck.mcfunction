@@ -1,0 +1,1 @@
+bossbar set berry:game/info name {text: "Stuck? Use ", color: "gold", extra: [{text: "/trigger unstuck", color: "aqua"}]}

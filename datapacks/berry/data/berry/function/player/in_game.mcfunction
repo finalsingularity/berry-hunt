@@ -1,4 +1,4 @@
-execute unless score @s berry.game_id = $game_id berry run return run function berry:player/lobby/reset
+execute unless score @s berry.game_id = $game_id berry run return run function berry:game/leave
 
 function berry:misc/berry_check/init
 

@@ -1,0 +1,1 @@
+bossbar set berry:game/info name {text: "Want to see your stats? ", color: "gold", extra: [{text: "/trigger stats", color: "aqua"}]}
